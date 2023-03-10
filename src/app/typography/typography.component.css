@@ -1,0 +1,11 @@
+.header {
+    background-color: whitesmoke;
+    color: grey;
+    border-bottom: 1px dashed gray;
+
+}
+
+.section_title {
+    /* border-bottom: 1px dashed gray; */
+    margin-top: 20px;
+}

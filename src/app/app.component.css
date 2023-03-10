@@ -1,0 +1,109 @@
+.header1{
+    height: 25px; background-color:rgb(12,59,86);
+}
+.header2{
+    padding: 10px; height: 75px; background-color:rgb(17,84,123);
+}
+#h2logo{
+    color: white; font-size: 2.125rem; 
+    text-decoration: none; font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold
+}
+#h2donate{
+    background-color: rgb(202,33,57);
+    color: white;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 10px 30px;
+}
+.nav-item{
+    padding: 8px;
+}
+.nav-item :hover {
+    background-color: rgb(0, 103, 137);
+    color: white;
+}
+.nav{
+    width: 960px;
+    height: 50px;
+}
+
+.header2-nav{
+    padding: 0; 
+    color: white; 
+    text-decoration: none;
+
+}
+
+.dropdown li{
+    list-style: none;
+    position: relative;
+    float: left;
+    padding: 15px 15px;
+    
+}
+/* footer */
+.container-fluid{
+    background-color:#414143;
+    color: white;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 20px;
+    /* max-width: 73.125rem; */
+    
+    /* padding: 0;
+    */
+}
+
+.heading{
+        text-transform: uppercase;
+        color: #f2f2f2;
+        font-family: 'Roboto Slab', serif;
+        font-size: 1rem;
+        font-weight: 400;
+}
+.socialicons ul{
+    display: flex;
+}
+.socialicons ul li a{
+    background-color: #f1f1f1;
+    margin: 0px 20px 0px -15px;
+    padding: 25px 20px 15px 20px;
+    font-size: 0px;
+}
+
+.issues ul li a{
+font-size: 0.9rem;
+line-height: 2.5;
+color: #11b6e8;;
+font-weight: normal;
+font-style: normal;
+}
+
+.campaign ul li a{
+    font-size: 0.9rem;
+    line-height: 2.5;
+    color: #11b6e8;;
+    font-weight: normal;
+    font-style: normal;
+ }
+.para{
+    background-color: #343436;
+    color: #777;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-bottom: 0.3125rem;
+    display: block;
+    padding: 20px;
+}
+footer{
+    background-color: #313133;
+    width: 100%;
+    margin: 20px 0px 0px -20px;
+    padding: 40px;
+    position: absolute; 
+    display: flex;
+    justify-content:space-between; 
+}
+

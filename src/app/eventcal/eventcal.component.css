@@ -1,0 +1,50 @@
+.header {
+    background-color: whitesmoke;
+    color: grey;
+    border-bottom: 1px dashed gray;
+}
+
+.calender {
+    margin: auto;
+    max-width: 1200px;
+    font-weight: bold;
+    font-family: serif;
+    color: gray;
+}
+
+.month {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+table,
+th,
+td {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 15px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+tr {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+tr,
+th,
+td {
+    padding: 35px;
+}
+
+th {
+    background: #1abc9c;
+    color: white;
+    font-family: arial black;
+    font-weight: bold;
+    font-size: large;
+}

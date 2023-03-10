@@ -1,0 +1,215 @@
+<div class="header1">
+</div>
+<div class="header2">
+  <div class="container">
+
+    <div class="nav">
+      <a id="h2logo" href="">DIPLO<b style="color: rgb(185, 185, 185);">MAT</b></a>
+
+      <div class="inner_nav" style="margin-left: auto;">
+        <ul class="dropdown">
+          <li>
+            <a class="nav-link header2-nav" routerLink="/login" routerLinkActive="active">Login</a>
+          </li>
+          <li>
+            <a class="nav-link header2-nav" routerLink="/register" routerLinkActive="active">Register</a>
+          </li>
+          <li>
+            <a class="nav-link header2-nav" (click)="logOut()" style="cursor:pointer">Logout</a>
+          </li>
+        </ul>
+      </div>
+
+      <a id="h2donate" target="_blank" href="">Donate</a>
+    </div>
+
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Events
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="/events">Events 1</a></li>
+            <!-- <li><hr class="dropdown-divider"></li> -->
+            <li><a class="dropdown-item" routerLink="/eventscal">Events 2</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/special" routerLinkActive="active">Members</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gallery
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="/gallery1">Gallery 1</a></li>
+            <!-- <li><hr class="dropdown-divider"></li> -->
+            <li><a class="dropdown-item" routerLink="/gallery2">Gallery 2</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Feature
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="/short">Short Code</a></li>
+            <!-- <li><hr class="dropdown-divider"></li> -->
+            <li><a class="dropdown-item" routerLink="/typo">Typography</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact1" >Contact</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<!-- /////// -->
+
+
+<div class="container">
+  <router-outlet></router-outlet>
+
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <!-- <div class="col-1"></div> -->
+    <div class="col-4">
+      <div class="box1">
+        <p class="heading">ABOUT DIPLOMAT</p>
+        <p>Nascetur fugiat corporis cillum nihil illo! Ullamcorper, lectus, imperdiet etiam quibusdam mi, accumsan
+          placeat blandit dolor? Voluptates sint, eius litora minima? Mollitia ullamcorper, at cupidatat voluptate
+          ullam, eius nulla</p>
+        <p class="heading">WE ARE SOCIAL</p>
+
+        <div class="socialicons">
+          <ul style="list-style-type: none;">
+
+            <li class="facebook">
+              <img src="">
+              <a target="_blank" href="http://www.facebook.com
+                      wpThemeMakers">Facebook</a>
+            </li>
+
+            <li class="twitter">
+              <img src="">
+              <a target="_blank" href="https://twitter.com/ThemeMakers">Twitter</a>
+            </li>
+
+            <li class="linkedin">
+              <img src="">
+              <a target="_blank" href="http://linkedin.com/">Linkedin</a>
+            </li>
+
+
+            <li class="pinterest">
+              <img src="">
+              <a target="_blank" href="http://pinterest.com/">Pinterest</a>
+            </li>
+
+
+            <li class="gplus">
+              <img src="">
+              <a target="_blank" href="http://google.com/">GooglePlus</a>
+            </li>
+
+
+            <li class="instagram">
+              <img src="">
+              <a target="_blank" href="http://instagram.com/">Instagram</a>
+            </li>
+
+          </ul>
+
+        </div>
+        <p class="heading">KEEP IN TOUCH WITH US</p>
+        <p> Information about current events related to our company </p>
+        <form action='abc.html'>
+          <input type='email' name='email'>
+          <input type='text' name='zipcode'>
+          <br>
+          <br>
+          <input type='submit' value='submit'>
+        </form>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="box2">
+        <p class="heading">ISSUES</p>
+        <div class="issues">
+
+          <ul id="menu-issues" class="menu" style="list-style-type: none;">
+            <li id="menu-item-332" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-332"><a
+                href="https://diplomat.webtemplatemasters.com/5-things-you-need-to-know-this-weekend/">5
+                things you need to know this weekend</a></li>
+            <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-333"><a
+                href="https://diplomat.webtemplatemasters.com/around-the-world-on-solar-power/">Around
+                the world on solar power</a></li>
+            <li id="menu-item-334" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-334"><a
+                href="https://diplomat.webtemplatemasters.com/cyclone-pam-slams-vanuatu/">Cyclone
+                Pam slams Vanuatu</a></li>
+            <li id="menu-item-335" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-335"><a
+                href="https://diplomat.webtemplatemasters.com/varius-animi-dolores-pellentesque-ut-ultricies/">Varius
+                animi dolores pellent</a></li>
+          </ul>
+        </div>
+
+        <div class="campaign">
+          <p class="heading">CAMPAIGN</p>
+          <ul id="menu-campaign" class="menu" style="list-style-type: none;">
+            <li id="menu-item-327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327"><a
+                href="https://diplomat.webtemplatemasters.com/about/">About Us</a></li>
+            <li id="menu-item-328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-328"><a
+                href="https://diplomat.webtemplatemasters.com/about/faq/">Frequently Asked
+                Questions</a></li>
+            <li id="menu-item-329" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"><a
+                href="https://diplomat.webtemplatemasters.com/events/">Latest Events</a></li>
+            <li id="menu-item-330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-330"><a
+                href="https://diplomat.webtemplatemasters.com/contact/">Contact Us</a></li>
+            <li id="menu-item-331" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-331"><a
+                href="https://diplomat.webtemplatemasters.com/category/people/">People</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="box3">
+        <p class="heading">FRESH FROM THE BLOG</p>
+        <div class="para">
+
+          <p> Aenean semper sapien pellentesque pelentesque vivamus sapien vehicula id libero <br> April 13, 2015
+          </p>
+        </div>
+
+        <div class="para">
+          <p>
+            Congue iure curabitur incididunt consequat <br> April 1, 2015
+          </p>
+        </div>
+
+        <p class="heading">LATEST NEWS</p>
+      </div>
+    </div>
+  </div>
+  <footer class="footer_bottom">
+    <p class="left">Copyright &copy; 2020. ThemeMakers. All rights reserved.</p>
+    <p class="right">Developed by </p>
+  </footer>
+</div>
